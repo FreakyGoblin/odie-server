@@ -345,7 +345,7 @@ class LectureView(AuthModelView):
         'aliases': {'validators': [Optional()]},
     }
     column_labels = {
-        'comment': 'Öffentlicher Kommentar (HTML)',
+        'comment': 'Öffentlicher Kommentar',
         'validated': 'Überprüft',
         'aliases': 'Aliase',
     }
